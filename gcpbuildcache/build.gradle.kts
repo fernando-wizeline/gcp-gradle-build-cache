@@ -34,15 +34,15 @@ dependencies {
 }
 
 pluginBundle {
-    website = "https://github.com/androidx/gcp-gradle-build-cache"
-    vcsUrl = "https://github.com/androidx/gcp-gradle-build-cache"
+    website = "https://github.com/fernando-wizeline/gcp-gradle-build-cache"
+    vcsUrl = "https://github.com/fernando-wizeline/gcp-gradle-build-cache.git"
     tags = listOf("buildcache", "gcp", "caching")
 }
 
 gradlePlugin {
     plugins {
         create("gcpbuildcache") {
-            id = "androidx.build.gradle.gcpbuildcache"
+            id = "org.fernando-wizeline.gcpbuildcache"
             displayName = "Gradle GCP Build Cache Plugin"
             description = """
                 - Warn when a user incorrectly configures GCP bucket to be used for the cache.
@@ -52,7 +52,7 @@ gradlePlugin {
     }
 }
 
-group = "androidx.build.gradle.gcpbuildcache"
+group = "org.fernando-wizeline.gcpbuildcache"
 version = "1.0.0-beta01"
 
 testing {
