@@ -40,7 +40,7 @@ class GcpGradleBuildCachePluginFunctionalTest {
         // Setup the test build
         getSettingsFile().writeText("""
             plugins {
-                id("androidx.build.gradle.gcpbuildcache")
+                id("io.github.fernando-wizeline.gcpbuildcache")
             }
             buildCache {
                 remote(androidx.build.gradle.gcpbuildcache.GcpBuildCache::class) {
