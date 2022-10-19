@@ -42,7 +42,7 @@ pluginBundle {
 gradlePlugin {
     plugins {
         create("gcpbuildcache") {
-            id = "org.fernando-wizeline.gcpbuildcache"
+            id = "io.github.fernando-wizeline.gcpbuildcache"
             displayName = "Gradle GCP Build Cache Plugin"
             description = """
                 - Warn when a user incorrectly configures GCP bucket to be used for the cache.
@@ -52,7 +52,7 @@ gradlePlugin {
     }
 }
 
-group = "org.fernando-wizeline.gcpbuildcache"
+group = "io.github.fernando-wizeline.gcpbuildcache"
 version = "1.0.0-beta01"
 
 testing {
